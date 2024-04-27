@@ -2,8 +2,7 @@
 import logging
 import random
 
-# Настройка логирования
-logging.basicConfig(level=logging.DEBUG, filename='py_log.log', filemode='w', format='%(asctime)s %(levelname)s %(message)s')
+logging.basicConfig(level=logging.DEBUG, filename='py_log2.log', filemode='w', format='%(asctime)s %(levelname)s %(message)s')
 
 def random_numbers(min_number, max_number):
     if min_number < 0 or max_number < 0:
