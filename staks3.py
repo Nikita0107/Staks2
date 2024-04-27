@@ -25,5 +25,5 @@ while True:
         print('Все элементы списка должны быть числами!')
         logging.critical('Все элементы списка должны быть числами!')
     except KeyboardInterrupt:
-        logging.info('Ошибка прерывания с клавиатуры')
+        logging.info('Ошибка прерывания с клавиатуры!')
 

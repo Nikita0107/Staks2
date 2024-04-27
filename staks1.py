@@ -34,4 +34,4 @@ while True:
 
     except ValueError as e:
         logging.warning('discriminant < 0, уравнение не имеет корней')
-        print(f'Ошибка: {e}. Попробуйте другие коэффициенты.')
+        print(f'Ошибка: {e}. Попробуйте другие коэффициенты!.')
